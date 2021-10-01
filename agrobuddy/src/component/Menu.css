@@ -1,0 +1,26 @@
+*{
+    padding: 0%;
+    margin:0%;
+  }
+.Card>img{
+    width: 200px;
+}
+.Menu{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Card{
+    background-color: #bfd49a;
+    width: 15rem;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
