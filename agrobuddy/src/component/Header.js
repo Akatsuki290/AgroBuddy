@@ -8,6 +8,7 @@ function Header() {
                 <img src={logo} alt="" />
                 <h1>AgroBuddy</h1>
             </div>
+            <button>Abous us</button>
         </div>
     )
 }
