@@ -1,0 +1,29 @@
+.Banner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90vw;
+    text-align: center;
+    color: azure;
+    align-self: center;
+    font-family: roboto;
+    height: 300px;
+    justify-content: space-around;
+    text-shadow: 0 1px 10px black;
+  }
+  .Banner>button{
+    background-color: #1190cc;
+    border: none;
+    padding: 10px;
+    width: 9rem;
+    align-self: center;
+    color: white;
+    font-family: roboto;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-shadow: 0 1px 5px black;
+
+  }
+.Banner>p{
+    font-size: 1.2rem;
+}
