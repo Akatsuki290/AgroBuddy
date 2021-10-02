@@ -1,10 +1,11 @@
 import React from 'react'
 import logo from "./mainlogo.png"
-function Card() {
+function Card(props) {
     return (
         <div className="Card">
-            <img src={logo} alt="" />
-            <h1>Hi there</h1>
+            <img src={props.img} alt="" />
+            <h1>{props.name}</h1>
+            <button> click me</button>
         </div>
     )
 }
