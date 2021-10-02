@@ -1,3 +1,4 @@
+import { Fade } from "react-awesome-reveal";
 import './App.css';
 import Header  from './component/Header';
 import Banner from "./component/Banner";
@@ -7,7 +8,10 @@ function App() {
     <div className="App">
      <Header/>
      <Banner/>
+     <Fade>
      <Menu/>
+    </Fade>
+
     </div>
   );
 }

@@ -10,12 +10,10 @@
     align-items: center;
     color: azure;
     font-family: roboto;
-    height: 340px;
+    height: 55vh;
     justify-content: space-around;
     text-shadow: 0 1px 10px black;
     letter-spacing: 0.3rem;
-    margin: 10px;
-    padding-bottom: 15px;
   }
   .Banner>button{
     background-color: #1190cc;
@@ -31,8 +29,18 @@
 .Banner>p{
     font-size: 1.2rem;
     font-weight: 500;
+    animation: fade 2s;
 }
 .Banner>h1{
     font-size: 2.5rem;
     font-weight: 900;
+    animation: fade 2s;
+}
+@keyframes fade{
+  0%{
+      opacity: 0%;
+  }
+  100%{
+      opacity: 100%;
+  }
 }

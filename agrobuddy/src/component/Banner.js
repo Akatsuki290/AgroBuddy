@@ -8,6 +8,7 @@ function Banner() {
             Agriculture World</h1>
             <p>We help increase crop production by providing actionable <br /> and free information to farmers.</p>
             <button>Read more</button>
+            
         </div>
     )
 }

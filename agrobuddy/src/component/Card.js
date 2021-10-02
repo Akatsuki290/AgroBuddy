@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from "./mainlogo.png"
 function Card(props) {
     return (
         <div className="Card">
