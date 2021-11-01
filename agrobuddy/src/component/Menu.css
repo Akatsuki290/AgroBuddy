@@ -67,8 +67,9 @@
         opacity: 100%;
     }
   }
-@keyframes card{
-    0%{
-    transform: scale(1.2);
+    @media screen and (max-width: 600px){
+        .Menu-main>h1{
+            font-size: 1.1rem;
+           height: 2rem;
+        }
     }
-}
