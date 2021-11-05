@@ -4,7 +4,7 @@ function Card(props) {
         <div className="Card">
             <img src={props.img} alt="" />
             <h1>{props.name}</h1>
-            <button> click me</button>
+           <a href={props.link}> <button> click me</button></a>
         </div>
     )
 }
