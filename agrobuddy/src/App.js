@@ -1,17 +1,18 @@
-import { Fade } from "react-awesome-reveal";
+
 import './App.css';
-import Header  from './component/Header';
-import Banner from "./component/Banner";
-import Menu from "./component/Menu";
+import Home from "./Home";
+import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
+import Infopedia from "./Infopedia";
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <Banner/>
-     <Fade>
-     <Menu/>
-    </Fade>
-
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home/>}>
+        </Route>
+        <Route exact path="/about" element={<Infopedia/>}></Route>
+      </Routes>
+    </Router>
     </div>
   );
 }

@@ -6,16 +6,22 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
-  background-color: #fff;
+  background-color: #f9fbec;
   overflow-x: hidden;
 }
 .App{
   width: 100vw;
-  background-image: url("./farm1.png");
-  background-size: 100vw 70vh;
-  background-repeat: no-repeat;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
+.About_us{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.team{
+  display: flex;
+}
